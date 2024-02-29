@@ -1,0 +1,131 @@
+:root {
+    --fs-sm: 14px;    
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-2xl: 28px;
+    --fs-3xl: 36px;
+    --fs-4xl: 48px;
+    --fs-5xl: 60px;
+    --fs-6xl: 64px;
+
+
+
+    --line-height-24: 24px;
+    --line-height-25: 25px;
+    --line-height-27: 27px;
+    --line-height-32: 32px;
+    --line-height-38: 38px;
+    --line-height-55: 55px;
+    --line-height-68: 68px;
+    --line-height-83: 83px;
+
+    --gray: #B0AEAC;
+    --black: black;
+    --golden: #E0B764;
+    --gradient-white: #F4EAD8;
+
+    
+
+ 
+
+}
+.color-black{
+    color: var(--black);
+}
+.color-gray{
+    color: var(--gray);
+}
+.line-height-24{
+    line-height: var(--line-height-24);
+}
+.line-height-25{
+    line-height: var(--line-height-25);
+}
+.line-height-27{
+    line-height: var(--line-height-27);
+}
+.line-height-32{
+    line-height: var(--line-height-32);
+}
+.line-height-38{
+    line-height: var(--line-height-38);
+}
+.line-height-55{
+    line-height: var(--line-height-55);
+}
+.line-height-68{
+    line-height: var(--line-height-68);
+}
+.line-height-83{
+    line-height: var(--line-height-83);
+}
+
+
+
+
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-2xl{
+    font-size: var(--fs-2xl);
+}
+.fs-3xl{
+    font-size: var(--fs-3xl);
+}
+.fs-4xl{
+    font-size: var(--fs-4xl);
+}
+.fs-5xl{
+    font-size: var(--fs-5xl);
+}
+.fs-6xl{
+    font-size: var(--fs-6xl);
+}
+
+
+@media (max-width:575px) {
+    :root {
+        --fs-sm: 14px;    
+        --fs-md: 16px;
+        --fs-lg: 16px;
+        --fs-xl: 20px;
+        --fs-2xl: 24px;
+        --fs-3xl: 28px;
+        --fs-4xl: 36px;
+        --fs-5xl: 48px;
+        --fs-6xl: 58px;
+    
+    
+    
+    
+        --line-height-24: 22px;
+        --line-height-25: 24px;
+        --line-height-27: 25px;
+        --line-height-32: 27px;
+        --line-height-38: 32px;
+        --line-height-55: 38px;
+        --line-height-68: 55px;
+        --line-height-83: 68px;
+    
+        
+    
+     
+    
+    }
+ 
+
+    
+}
+
+
+  
