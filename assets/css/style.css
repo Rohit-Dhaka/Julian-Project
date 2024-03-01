@@ -632,7 +632,7 @@
 .border_reduce .left-line {
     height: 0 !important;
 }
-.timeline-date {
+.timeline-step {
     margin-bottom: 12px;
 }
 .border-bottom-gray {
@@ -650,12 +650,12 @@
     .timeline-item {
         margin-left: 120px;
     }
-    .timeline-item .timeline-date {
+    .timeline-item .timeline-step {
         position: absolute;
         left: -12%;
         text-align: right
     }
-    .timeline-date {
+    .timeline-step {
         margin-bottom: 0;
     }             
     .timeline-item .timeline-content {
@@ -679,8 +679,9 @@
 .border_reduce .left-line {
     height: 0 !important;
 }
-.timeline-date2 {
-    margin-bottom: 12px;
+.timeline-week {
+    margin-bottom: 12px;    
+    max-width: 136px ;            
 }
 .border-bottom-gray {
     border-bottom: 1px solid #D7C8AE52;
@@ -698,12 +699,12 @@
     .timeline-item2 {
         margin-left: 204px;
     }
-    .timeline-item2 .timeline-date2 {
+    .timeline-item2 .timeline-week {
         position: absolute;
         left: -19%;
         text-align: right
     }
-    .timeline-date2 {
+    .timeline-week {
         margin-bottom: 0;
     }             
     .timeline-item2 .timeline-content2 {
