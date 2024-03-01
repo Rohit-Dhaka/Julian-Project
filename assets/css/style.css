@@ -371,7 +371,9 @@
 }
 .btn-1:hover {            
     border-radius: 70px;
-    box-shadow: 0px 0px 12px 0px var(--golden);
+    background-size: 100% 0px;
+
+    box-shadow: 0px 0px 20px 1px var(--golden);
 }
 .translate-y-76 {
     transform: translateY(-76px);
@@ -434,7 +436,7 @@
     border-radius: 4px;
 }
 .border-top {
-    border-top: 0.5px solid #FCF9F64D !important;
+    border-top: 0.5px solid #FCF9F64D !important;        
 }
 .tab-box {
     padding: 18px 32px;
@@ -604,13 +606,13 @@
     height: 60px;
     border: 1px solid transparent;
     background: linear-gradient(white , white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
-    padding: 18px 24px;
+    padding: 18px 24px;    
 }
-.acc-Item.acc-active {
+.acc-Item.acc-active {    
     height: unset;
 }
 .acc-Item.acc-active svg {
-    transform: rotate(30deg);
+    transform: rotate(45deg);
 }
 /* ---------------------accordion */
 /* -----------timeline------------- */
