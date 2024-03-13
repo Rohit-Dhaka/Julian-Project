@@ -91,7 +91,7 @@
     
 
 
-    // ---------acor
+    // ---------acc
     let item = document.querySelectorAll(".acc-Item");
         item.forEach(function (e) {
             e.addEventListener("click", function () {
